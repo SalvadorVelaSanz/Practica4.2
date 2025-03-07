@@ -62,7 +62,7 @@ nav ul li a {
 .imagen_header {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 42em;
   display: flex;
 }
 
@@ -86,43 +86,10 @@ nav ul li a {
   transform: translate(-50%, -50%);
   font-size: 5vw;
   color: white;
-  width: 80%;
+  width: 25%;
   text-align: center;
 }
-/* 
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  header div img {
-    margin-left: 0;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .imagen_header {
-    height: 300px;
-  }
-
-  .imagen_header h1 {
-    font-size: 8vw;
-  }
-}
-
-@media (max-width: 480px) {
-  .imagen_header {
-    height: 200px;
-  }
-
-  .imagen_header h1 {
-    font-size: 10vw;
-  }
-} */
 
 
 /* com */
@@ -203,15 +170,62 @@ nav ul li a {
 
 /* SOA */
 
-.soa .container{
+.soa .container {
   display: flex;
-  justify-content: center;
   margin-bottom: 50px;
+}
 
+.soa .container .noticias {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.soa .container .noticias article {
+  background-color: #1d5d8c;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 23px;
+  z-index: 0;
+  box-shadow: 2px 2px 4px #999999;
+}
+
+.soa .fecha {
+  width: 30%;
+  margin-left: 3em;
+}
+
+.soa .fecha input[type="date"] {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 1.2em; /* Increase the font size */
+  padding: 10px; /* Add padding to make the input larger */
 }
 
 
-.soa .container .noticias article{
+/* About */
+
+
+
+.about{
+  display: flex;;
+  margin-bottom: 50px;
+  align-items: center;  
+
+}
+
+.about .imagen{
+  width: 50%;
+  height: 100%; 
+  z-index: 1;
+  margin-left: -8em;
+
+}
+
+.about .texto{
   background-color: #1d5d8c;
   border-radius: 20px;
   padding: 20px;
@@ -220,19 +234,9 @@ nav ul li a {
   font-size: 23px;
   height: 100%;
   z-index: 0;
-  padding-left: 6em;
-  margin-left: -5em;
+  padding-right: 6em;  
   box-shadow: 2px 2px 4px #999999;
 }
-
-
-
-
-/* About */
-
-
-
-
 
 
 
