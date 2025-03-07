@@ -192,6 +192,10 @@ nav ul li a {
   box-shadow: 2px 2px 4px #999999;
 }
 
+.soa .container .noticias article a {
+ color: white;
+}
+
 .soa .fecha {
   width: 30%;
   margin-left: 3em;
